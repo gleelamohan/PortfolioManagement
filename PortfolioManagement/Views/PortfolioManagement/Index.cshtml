@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Required for HTML5 Url Routing in Angular $locationProvider -->
+    <base href="/">
+
+    <!-- Page title set in pageTitle directive -->
+    <title page-title></title>
+
+
+</head>
+<body ng-controller="UsersCtrl as vm">
+
+    <div ui-view></div>
+
+    @Styles.Render("~/Content/css")
+    <!-- jQuery and Bootstrap -->
+    <!-- jQuery and Bootstrap -->
+    <script src="~/Scripts/lib/jQuery/jquery-2.1.1.min.js"></script>
+    <script src="~/Scripts/lib/jQuery-UI/jquery-ui.min.js"></script>
+    <script src="~/Scripts/lib/Bootstrap/bootstrap.min.js"></script>
+
+    <!-- Moment -->
+    <script src="~/Scripts/PlugIns/Moment/moment.js"></script>
+
+    <!-- mockJSON -->
+    <script src="~/Scripts/PlugIns/mockJSON/jquery.mockjson.js"></script>
+
+    <!-- MetsiMenu -->
+    <script src="~/Scripts/PlugIns/MetisMenu/1.1.3/jquery.metisMenu.js"></script>
+
+    <!-- toastr -->
+    <script src="~/Scripts/PlugIns/Toastr/2.1.0/toastr.js"></script>
+
+    <!-- Data Tables -->
+    <script src="~/Scripts/PlugIns/dataTables/jquery.dataTables.js"></script>
+    <script src="~/Scripts/PlugIns/dataTables/dataTables.bootstrap.js"></script>
+    <script src="~/Scripts/PlugIns/dataTables/Extensions/dataTables.colReorder.min.js"></script>
+    <script src="~/Scripts/PlugIns/dataTables/Extensions/dataTables.colVis.min.js"></script>
+
+    <!-- Chart Controls -->
+    <script src="~/Scripts/PlugIns/flot/jquery.flot.js"></script>
+    <script src="~/Scripts/PlugIns/flot/jquery.flot.time.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="~/Scripts/Inspinia/1.8/inspinia.js"></script>
+
+    <!-- Angular scripts-->
+    <script src="~/Scripts/lib/Angular/angular.js"></script>
+    <script src="~/Scripts/lib/Angular/angular-resource.min.js"></script>
+    <script src="~/Scripts/lib/Angular/angular-sanitize.min.js"></script>
+    <script src="~/Scripts/lib/Angular/angular-route.js"></script>
+    <script src="~/Scripts/lib/Angular/angular-animate.js"></script>
+
+    <script src="~/Scripts/PlugIns/ui-grid/export/csv.js"></script>
+    <script src="~/Scripts/PlugIns/ui-grid/export/pdfmake.js"></script>
+    <script src="~/Scripts/PlugIns/ui-grid/export/vfs_fonts.js"></script>
+    <script src="~/Scripts/PlugIns/ui-grid/ui-grid.min.js"></script>
+
+    <script src="~/Scripts/PlugIns/Angular-UI-Router/angular-ui-router.js"></script>
+    <script src="~/Scripts/PlugIns/Angular-UI-Bootstrap/ui-bootstrap-tpls-0.13.0.min.js"></script>
+
+    <!-- Angular Dependiences -->
+    @*<script src="~/Scripts/PlugIns/ng-Grid/2.0.12/ng-grid.min.js"></script>*@
+    <script src="~/Scripts/PlugIns/ng-Grid/2.0.12/ng-grid.js"></script>
+    <script src="~/Scripts/PlugIns/dataTables/angular-datatables.min.js"></script>
+    <script src="~/Scripts/PlugIns/Angular-UI-Tree/angular-ui-tree.min.js"></script>
+
+    <!-- Angular Translate -->
+    <script src="~/Scripts/PlugIns/Angular-Translate/angular-translate.min.js"></script>
+    <script src="~/Scripts/PlugIns/Angular-Translate/angular-translate-loader-url.min.js"></script>
+    <script src="~/Scripts/PlugIns/Angular-Translate/angular-translate-loader-static-files.min.js"></script>
+
+    <!-- ng-Storage  -->
+    <script src="~/Scripts/PlugIns/ng-Storage/ngStorage.min.js"></script>
+
+    <!-- Breeze -->
+    <script src="~/Scripts/lib/Breeze/breeze.min.js"></script>
+    <script src="~/Scripts/breeze.bridge.angular.js"></script>
+ 
+    <script src="~/app/app.module.js"></script>
+     <script src="~/app/app.config.js"></script>
+    <script src="~/app/components/authentication/portfolioAuth.directive.js"></script>
+    <script src="~/app/components/login/user.controller.js"></script>
+
+</body>
+
+</html>
