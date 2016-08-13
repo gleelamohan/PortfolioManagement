@@ -1,2 +1,7 @@
 ﻿angular
-    .module('app', ['ngResource',  'ui.router']);
+    .module('app', [
+        'ngResource',
+        'ui.router',
+        'app.customerPortfolio',
+        'app.moPortfolio'
+    ]);

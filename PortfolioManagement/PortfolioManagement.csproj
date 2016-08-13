@@ -209,6 +209,17 @@
     <Content Include="app\components\authentication\portfolioAuth.directive.js" />
     <Content Include="app\components\authentication\portfolioAuth.html" />
     <Content Include="app\components\login\user.controller.js" />
+    <Content Include="app\customerPortfolio\customerDashboard\customerDashboard.config.js" />
+    <Content Include="app\customerPortfolio\customerDashboard\customerDashboard.module.js" />
+    <Content Include="app\customerPortfolio\customerDashboard\manage\customerDashboard.manage.config.js" />
+    <Content Include="app\customerPortfolio\customerDashboard\manage\customerDashboard.manage.controller.js" />
+    <Content Include="app\customerPortfolio\customerDashboard\manage\customerDashboard.manage.directive.js" />
+    <Content Include="app\customerPortfolio\customerDashboard\manage\customerDashboard.manage.html" />
+    <Content Include="app\customerPortfolio\customerDashboard\manage\customerDashboard.manage.module.js" />
+    <Content Include="app\customerPortfolio\customerPortfolio.config.js" />
+    <Content Include="app\customerPortfolio\customerPortfolio.module.js" />
+    <Content Include="app\moPortfolio\moPortfolio.config.js" />
+    <Content Include="app\moPortfolio\moPortfolio.module.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="css\animate.css" />
@@ -384,6 +395,8 @@
     <Content Include="Views\PortfolioManagement\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\moPortfolio\moDashboard\" />
+    <Folder Include="app\moPortfolio\NewFolder1\" />
     <Folder Include="App_Data\" />
     <Folder Include="fonts\OpenSans\" />
     <Folder Include="Scripts\Inspinia\" />
