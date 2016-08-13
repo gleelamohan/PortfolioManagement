@@ -1,3 +1,3 @@
 ﻿angular
-    .module('app.customerPortfolio.customerDashboard', ['app.customerPortfolio.customerDashboard.dashboard'
+    .module('app.customerPortfolio.customerDashboard', ['app.customerPortfolio.customerDashboard.manage'
     ]);

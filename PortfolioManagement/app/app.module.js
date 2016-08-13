@@ -2,6 +2,5 @@
     .module('app', [
         'ngResource',
         'ui.router',
-        'app.customerPortfolio',
-        'app.moPortfolio'
+        'app.customerPortfolio'
     ]);

@@ -1,15 +1,20 @@
-﻿(function () {
-    function config($stateProvider, $urlRouterProvider, $httpProvider) {
-        $httpProvider.defaults.withCredentials = true;
-        $urlRouterProvider.otherwise("/");
+﻿
+(function () {
+    angular
+        .module('app.customerPortfolio.customerDashboard.manage')
+        .config(config);
+
+    config.$inject = ['$stateProvider'];
+
+    function config($stateProvider) {
+
+       
         $stateProvider
             .state('customerPortfolio.customerDashboard.manage', {
-                "abstract": true,
                 url: "/manage",
-                template: "<ui-view />"
+                template: '<customerdash-manage />',
+                controller: "customerDashboardManageCtrl",
+                controllerAs: "vm"
             });
     }
-    angular.module('app.customerPortfolio.customerDashboard.manage')
-          .config(config);
-    config.$inject = ['$stateProvider', '$urlRouterProvider', '$httpProvider'];
 })();

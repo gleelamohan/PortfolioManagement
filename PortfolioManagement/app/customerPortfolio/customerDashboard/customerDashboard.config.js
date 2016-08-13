@@ -1,15 +1,17 @@
 ﻿(function () {
-    function config($stateProvider, $urlRouterProvider, $httpProvider) {
-        $httpProvider.defaults.withCredentials = true;
-        $urlRouterProvider.otherwise("/");
+    angular
+        .module('app.customerPortfolio.customerDashboard')
+        .config(config);
+
+    config.$inject = ['$stateProvider'];
+
+    function config($stateProvider) {
+    
         $stateProvider
             .state('customerPortfolio.customerDashboard', {
-                "abstract": true,
+                abstract: true,
                 url: "/customerDashboard",
-                template: "<ui-view />"
+                template: '<ui-view />'
             });
     }
-    angular.module('app.customerPortfolio.customerDashboard')
-          .config(config);
-    config.$inject = ['$stateProvider', '$urlRouterProvider', '$httpProvider'];
 })();

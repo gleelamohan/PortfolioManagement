@@ -1,2 +1,2 @@
 ﻿angular
-    .module('app.customerPortfolio.customerDashboard.dashboard', []);
+    .module('app.customerPortfolio.customerDashboard.manage', []);
