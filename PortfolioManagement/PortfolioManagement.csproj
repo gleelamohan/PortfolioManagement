@@ -209,6 +209,8 @@
     <Content Include="app\components\authentication\portfolioAuth.directive.js" />
     <Content Include="app\components\authentication\portfolioAuth.html" />
     <Content Include="app\components\login\user.controller.js" />
+    <Content Include="app\components\navigation\navigation.directive.js" />
+    <Content Include="app\components\navigation\navigationMenu.html" />
     <Content Include="app\customerPortfolio\customerDashboard\customerDashboard.config.js" />
     <Content Include="app\customerPortfolio\customerDashboard\customerDashboard.module.js" />
     <Content Include="app\customerPortfolio\customerDashboard\manage\customerDashboard.manage.config.js" />
@@ -218,6 +220,8 @@
     <Content Include="app\customerPortfolio\customerDashboard\manage\customerDashboard.manage.module.js" />
     <Content Include="app\customerPortfolio\customerPortfolio.config.js" />
     <Content Include="app\customerPortfolio\customerPortfolio.module.js" />
+    <Content Include="app\layout\footer.html" />
+    <Content Include="app\layout\topnavbar.html" />
     <Content Include="app\moPortfolio\moPortfolio.config.js" />
     <Content Include="app\moPortfolio\moPortfolio.module.js" />
     <Content Include="Content\bootstrap.css" />
