@@ -21,7 +21,7 @@
             controllerAs: 'vm',
             template: '<div ng-include="vm.templateUrl"></div>',
             compile: function (element) {
-                return recursionHelper.compile(element);
+               // return recursionHelper.compile(element);
             }
         }
     };

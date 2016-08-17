@@ -18,10 +18,12 @@
 
 
 </head>
-<body ng-controller="UsersCtrl as vm">
+<body>
 
-    <div id="wrapper">
-        <navigation></navigation>
+    <div id="wrapper" ng-controller="UserVerify">
+        
+           
+      <div><navigation></navigation></div>
         <div id="page-wrapper" class="gray-bg">
             <!-- Top Nav Bar -->
             <div ng-include="'/app/layout/topnavbar.html'"></div>
@@ -99,6 +101,7 @@
         <script src="~/app/app.config.js"></script>
         <script src="~/app/components/authentication/portfolioAuth.directive.js"></script>
         <script src="~/app/components/navigation/navigation.directive.js"></script>
+        <script src="~/app/components/login/userverfiy.controller.js"></script>
         <script src="~/app/components/login/user.controller.js"></script>
 
 

@@ -7,8 +7,10 @@
 
     function UsersCtrl($scope, $state, $rootScope, $filter) {
         var vm = this;
+        
         vm.inputScope = [];
-        $state.go('auth', { inputScope: vm.inputScope });
+        
+         $state.go('auth', { inputScope: vm.inputScope });
     }
 
 

@@ -209,6 +209,7 @@
     <Content Include="app\components\authentication\portfolioAuth.directive.js" />
     <Content Include="app\components\authentication\portfolioAuth.html" />
     <Content Include="app\components\login\user.controller.js" />
+    <Content Include="app\components\login\userverfiy.controller.js" />
     <Content Include="app\components\navigation\navigation.directive.js" />
     <Content Include="app\components\navigation\navigationMenu.html" />
     <Content Include="app\customerPortfolio\customerDashboard\customerDashboard.config.js" />

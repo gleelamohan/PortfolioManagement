@@ -4,15 +4,15 @@
         .module('app')
         .directive('portfolioAuth', portfolioAuth);
 
-    portfolioAuth.$inject = ['$sce', '$filter', '$state', '$stateParams'];
-    function portfolioAuth($sce, $filter, $stateParams) {
+    portfolioAuth.$inject = ['$sce', '$filter', '$state' ,'$rootScope','$stateParams'];
+    function portfolioAuth($sce, $filter, $state ,$rootScope,$stateParams) {
         return {
             restrict: 'AEC',
             replace: false,
             controller: function ($scope, $state, $stateParams) {             
                 var vm = this;
-                vm.loginclick = function () {
-
+               
+                vm.loginclick = function () {                   
                     vm.inputScope = [];
                     $state.go('customerPortfolio.customerDashboard.manage', { inputScope: vm.inputScope });
                 };

@@ -16,7 +16,7 @@
         }
     };
 
-    function navigationCtrl(navigationGate) {
+    function navigationCtrl() {
         //var vm = this;
         //vm.navHeader = "/app/layout/navHeader.html";
         //vm.counter = { current: 0, total: 0 };
